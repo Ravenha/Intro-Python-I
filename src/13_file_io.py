@@ -22,7 +22,7 @@ with open('foo.txt') as f:
 
 # YOUR CODE HERE
 with open('bar.txt', 'w') as x:
-    x.write('This is line one,\nThis is line two,\nI am ready for bed.')
+    x.write('This is line one,\nThis is line two,\nDone.')
     x.close()
 
 with open('bar.txt') as f:
